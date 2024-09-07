@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import TabNavigation from "./components/TabNavigation";
-import TempGallery from "./components/tempGallery";
+import TempGallery from "./components/TempGallery";
 
 function App() {
   const [activeTab, setActiveTab] = useState("aboutMe");
