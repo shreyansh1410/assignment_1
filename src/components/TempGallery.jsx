@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import UploadButton from "./UploadButton";
 import SliderControls from "./SliderControls";
+import "../assets/images/image.png";
 
 function TempGallery() {
   const defaultImages = [
-    "/src/assets/images/image.png", // Replace with actual paths
-    "/src/assets/images/image.png",
-    "/src/assets/images/image.png",
+    "../assets/images/image.png",
+    "../assets/images/image.png",
+    "../assets/images/image.png",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [images, setImages] = useState(defaultImages);
