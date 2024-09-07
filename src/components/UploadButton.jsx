@@ -1,5 +1,5 @@
 import React from "react";
-import uploadButtonImage from "../assets/images/uploadButtonImage.png";
+import uploadButtonImage from "/images/uploadButtonImage.png";
 
 function UploadButton({ onImageUpload }) {
   const handleImageUpload = (event) => {

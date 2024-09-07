@@ -4,9 +4,9 @@ import SliderControls from "./SliderControls";
 
 function TempGallery() {
   const defaultImages = [
-    "./src/assets/images/image.png",
-    "./src/assets/images/image.png",
-    "./src/assets/images/image.png",
+    "/images/image.png",
+    "/images/image.png",
+    "/images/image.png",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [images, setImages] = useState(defaultImages);
